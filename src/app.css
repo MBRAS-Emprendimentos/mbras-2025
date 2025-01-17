@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-rgb: 214, 219, 220;
+  --foreground-rgb: 0, 0, 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-rgb: 0, 0, 0;
+    --foreground-rgb: 255, 255, 255;
+  }
+}
+
+body {
+  background: rgb(var(--background-rgb));
+  color: rgb(var(--foreground-rgb));
+}
+
+/* Ensure the correct page size in print */
+@page {
+  size: A4 landscape;     /* A4 in landscape orientation */
+  margin: 0;             /* Remove default browser margins */
+}
+
+/* Hide default page headers/footers in some browsers */
+@media print {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .page {
+    page-break-after: always; /* Force each .page to be a new printed page */
+  }
+
+  /* If you want the last page not to break, you can override:
+  .page:last-of-type {
+    page-break-after: auto;
+  }
+  */
+}
+
+/* Container for all pages */
+.pdf-container {
+  padding: 2px;
+}
+
+/* Each page uses A4-landscape dimensions: 297mm x 210mm */
+.page {
+  position: relative;
+  width: 297mm;
+  height: 210mm;
+  margin: 0 auto 20px auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  box-sizing: border-box;
+}
