@@ -29,7 +29,7 @@ const MbrasLuxuryPresentation: Component = () => {
 
       {/* PAGE 3: What We Do - "Beyond Transactions, Elevated Experiences" */}
       <section class="p-40 ml-24 w-full h-full flex flex-col justify-center">
-        <h2 class="max-6-xs text-8xl max-w-6xl tracking-wider leading-tight text-sky-700 font-thin uppercase my-24">Além das Transações, Experiências Elevadas</h2>
+        <h2 class="max-6-xs text-8xl max-w-6xl tracking-wider leading-tight text-sky-700 font-thin uppercase my-28">Além das Transações, Experiências Elevadas</h2>
         <p class="text-3xl max-w-5xl uppercase font-thin leading-loose tracking-widest">
           Nosso diferencial transcende a simples negociação de imóveis. 
           Entregamos consultoria especializada, gestão de ativos, 
@@ -41,7 +41,7 @@ const MbrasLuxuryPresentation: Component = () => {
 
       {/* PAGE 4: Essence - "The Pursuit of Excellence" */}
       <section class="p-40 ml-24 w-full h-full flex flex-col justify-center">
-        <h2 class="max-6-xs text-8xl max-w-6xl tracking-wider leading-tight text-sky-700 font-thin uppercase my-28 pt-32">A Busca pela Excelência</h2>
+        <h2 class="max-6-xs text-8xl max-w-6xl tracking-wider leading-tight text-sky-700 font-thin uppercase my-28 pt-4">A Busca pela Excelência</h2>
         <div class="text-3xlx font-thin quote pb-6 tracking-widest max-w-5xl">
           “Nós somos o que fazemos repetidamente. 
           A excelência, portanto, não é um ato, mas um hábito.”
@@ -55,7 +55,7 @@ const MbrasLuxuryPresentation: Component = () => {
 
       {/* PAGE 5: Structure - "Empowering Expertise" */}
       <section class="p-40 ml-24 w-full h-full flex flex-col justify-center">
-        <h2 class="max-6-xs text-8xl max-w-6xl tracking-wider leading-tight text-sky-700 font-thin uppercase my-28 pt-32">Capacitando a Expertise</h2>
+        <h2 class="max-6-xs text-8xl max-w-6xl tracking-wider leading-tight text-sky-700 font-thin uppercase my-28 pt-4">Capacitando a Expertise</h2>
         <p class="text-3xl max-w-5xl uppercase font-thin leading-loose tracking-widest">
           Oferecemos todo o suporte aos nossos consultores e prestadores 
           de serviço, partindo do princípio cultural de abertura à 
@@ -65,7 +65,7 @@ const MbrasLuxuryPresentation: Component = () => {
 
       {/* PAGE 6: Our Team - "Driven by Passion, Defined by Expertise" */}
       <section class="p-40 ml-24 w-full h-full flex flex-col justify-center">
-        <h2 class="max-6-xs text-8xl max-w-6xl tracking-wider leading-tight text-sky-700 font-thin uppercase my-28 pt-32">Movidos pela Paixão, Definidos pela Expertise</h2>
+        <h2 class="max-6-xs text-8xl max-w-6xl tracking-wider leading-tight text-sky-700 font-thin uppercase my-28 pt-4">Movidos pela Paixão, Definidos pela Expertise</h2>
         <p class="text-3xl max-w-5xl uppercase font-thin leading-loose tracking-widest">
           Nossa equipe multidisciplinar conta com advogados, engenheiros, 
           arquitetos e designers de interiores. Essa variedade de 

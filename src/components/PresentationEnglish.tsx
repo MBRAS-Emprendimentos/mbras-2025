@@ -28,7 +28,7 @@ const MbrasLuxuryPresentation: Component = () => {
 
       {/* PAGE 3: What We Do - "Beyond Transactions, Elevated Experiences" */}
       <section class="p-40 ml-24 w-full h-full flex flex-col justify-center">
-        <h2 class="max-6-xs text-8xl max-w-6xl tracking-wider leading-tight text-sky-700 font-thin uppercase my-24">Beyond Transactions, Elevated Experiences</h2>
+        <h2 class="max-6-xs text-8xl max-w-6xl tracking-wider leading-tight text-sky-700 font-thin uppercase my-28">Beyond Transactions, Elevated Experiences</h2>
         <p class="text-3xl max-w-5xl uppercase font-thin leading-loose tracking-widest">
           Our differential transcends simple real estate negotiations. 
           We deliver specialized consulting, asset management, 
@@ -40,7 +40,7 @@ const MbrasLuxuryPresentation: Component = () => {
 
       {/* PAGE 4: Essence - "The Pursuit of Excellence" */}
       <section class="p-40 ml-24 w-full h-full flex flex-col justify-center">
-        <h2 class="max-6-xs text-8xl max-w-6xl tracking-wider leading-tight text-sky-700 font-thin uppercase my-28 pt-32">The Pursuit of Excellence</h2>
+        <h2 class="max-6-xs text-8xl max-w-6xl tracking-wider leading-tight text-sky-700 font-thin uppercase my-28 pt-4">The Pursuit of Excellence</h2>
         <div class="text-3xlx font-thin quote pb-6 tracking-widest max-w-5xl">
           "We are what we repeatedly do. 
           Excellence, therefore, is not an act, but a habit."
@@ -54,7 +54,7 @@ const MbrasLuxuryPresentation: Component = () => {
 
       {/* PAGE 5: Structure - "Empowering Expertise" */}
       <section class="p-40 ml-24 w-full h-full flex flex-col justify-center">
-        <h2 class="max-6-xs text-8xl max-w-6xl tracking-wider leading-tight text-sky-700 font-thin uppercase my-28 pt-32">Empowering Expertise</h2>
+        <h2 class="max-6-xs text-8xl max-w-6xl tracking-wider leading-tight text-sky-700 font-thin uppercase my-28 pt-4">Empowering Expertise</h2>
         <p class="text-3xl max-w-5xl uppercase font-thin leading-loose tracking-widest">
           We offer complete support to our consultants and service 
           providers, based on the cultural principle of openness to 
@@ -64,7 +64,7 @@ const MbrasLuxuryPresentation: Component = () => {
 
       {/* PAGE 6: Our Team - "Driven by Passion, Defined by Expertise" */}
       <section class="p-40 ml-24 w-full h-full flex flex-col justify-center">
-        <h2 class="max-6-xs text-8xl max-w-6xl tracking-wider leading-tight text-sky-700 font-thin uppercase my-28 pt-32">Driven by Passion, Defined by Expertise</h2>
+        <h2 class="max-6-xs text-8xl max-w-6xl tracking-wider leading-tight text-sky-700 font-thin uppercase my-28 pt-4">Driven by Passion, Defined by Expertise</h2>
         <p class="text-3xl max-w-5xl uppercase font-thin leading-loose tracking-widest">
           Our multidisciplinary team includes lawyers, engineers, 
           architects, and interior designers. This variety of 
