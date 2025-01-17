@@ -2,7 +2,7 @@ import { Component } from "solid-js";
 
 const MbrasLuxuryPresentation: Component = () => {
   return (
-    <div class="pdf-container">
+    <div>
       {/* PAGE 1: Hero - "The MBRAS Vision" */}
       <section class="p-40 ml-24 w-full h-full flex flex-col justify-center">
         <h1 class="max-6-xs text-8xl tracking-wider text-sky-700 font-thin uppercase pb-6 my-28">The MBRAS Vision</h1>

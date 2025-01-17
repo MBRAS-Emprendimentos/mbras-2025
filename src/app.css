@@ -21,7 +21,7 @@ body {
 
 /* Ensure the correct page size in print */
 @page {
-  size: A4 landscape;     /* A4 in landscape orientation */
+  size: landscape;     /* A4 in landscape orientation */
   margin: 0;             /* Remove default browser margins */
 }
 
@@ -31,33 +31,5 @@ body {
     margin: 0;
     padding: 0;
   }
-  
-  .page {
-    page-break-after: always; /* Force each .page to be a new printed page */
-  }
-
-  /* If you want the last page not to break, you can override:
-  .page:last-of-type {
-    page-break-after: auto;
-  }
-  */
-}
-
-/* Container for all pages */
-.pdf-container {
-  padding: 2px;
-}
-
-/* Each page uses A4-landscape dimensions: 297mm x 210mm */
-.page {
-  position: relative;
-  width: 297mm;
-  height: 210mm;
-  margin: 0 auto 20px auto;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 40px;
-  box-sizing: border-box;
+ 
 }

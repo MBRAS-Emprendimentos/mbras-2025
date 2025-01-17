@@ -2,18 +2,19 @@ import { Component } from "solid-js";
 
 const MbrasLuxuryPresentation: Component = () => {
   return (
-    <div class="pdf-container">
+    <div>
       {/* PAGE 1: Hero - "The MBRAS Vision" */}
-      <section class="p-40 ml-24 w-full h-full flex flex-col justify-center">
-        <h1 class="max-6-xs text-8xl tracking-wider text-sky-700 font-thin uppercase pb-6 my-28">A Visão MBRAS</h1>
-        <div class="metallic-line"></div>
-        <p class="text-3xl max-w-5xl uppercase font-thin leading-loose tracking-widest">
-          Redefinindo o mercado imobiliário de altíssimo padrão. Apresentamos a 
-          você uma nova forma de vivenciar o segmento de luxo, onde cada detalhe 
-          foi pensado para inspirar, surpreender e encantar.
-        </p>
-        {/* Optional background image or full-bleed approach */}
-      </section>
+      <section class="w-full min-h-screen flex flex-col justify-center items-center px-4">
+      <h2 class="text-8xl tracking-wider text-sky-700 font-thin uppercase text-center pb-6 my-16">
+        A Visão MBRAS
+      </h2>  
+      <p class="text-3xl uppercase font-thin leading-loose tracking-widest text-center max-w-5xl">
+        Redefinindo o mercado imobiliário de altíssimo padrão. Apresentamos a 
+        você uma nova forma de vivenciar o segmento de luxo, onde cada detalhe 
+        foi pensado para inspirar, surpreender e encantar.
+      </p>
+     </section>
+     
 
       {/* PAGE 2: Our History - "Crafting a Legacy" */}
       <section class="p-40 ml-24 w-full h-full flex flex-col justify-center">

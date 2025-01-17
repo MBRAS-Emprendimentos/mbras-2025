@@ -1,9 +1,9 @@
-import PresentatioPortuguese from "../components/PresentatioPortuguese";
+import PresentationPortuguese from "../components/PresentationPortuguese";
 
 export default function Home() {
   return (
     <main>
-      <PresentatioPortuguese />
+      <PresentationPortuguese />
     </main>
   );
 }
